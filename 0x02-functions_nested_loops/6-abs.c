@@ -1,13 +1,11 @@
 #include "main.h"
 /**
  * _abs - Entry
- * @int: the value to check
+ * @n: the value to check
  * Return: 0
  */
-int _abs(int)
+int _abs(int n)
 {
-	int n;
-
 	if (n < 0)
 		_putchar(n * -1);
 	else
