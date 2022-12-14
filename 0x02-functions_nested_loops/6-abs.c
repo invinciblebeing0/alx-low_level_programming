@@ -7,8 +7,8 @@
 int _abs(int n)
 {
 	if (n < 0)
-		_putchar("%i\n", (n * -1));
+		_putchar(-n);
 	else
-		_putchar("%i\n", n);
+		_putchar(n);
 	return (0);
 }
